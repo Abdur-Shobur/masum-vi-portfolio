@@ -5,6 +5,7 @@
 	flex: 1;
 	position: relative;
 }
+
 .label {
 	color: #000;
 	font-family: DM Sans;
@@ -19,15 +20,26 @@
 	position: relative;
 }
 
-.input:focus {
+.input:focus-visible {
 	outline: none;
-	border-bottom: 1px solid #8d8d8d;
+	border-bottom: 1px solid #127063;
 }
 
 .border {
 	position: absolute;
 	width: 2px;
-	height: 20px;
+	height: 24px;
 	background-color: #8d8d8d;
 	bottom: 12px;
+}
+.wrap:focus-visible label {
+	color: #127063;
+}
+.wrap:focus-visible .border {
+	background-color: #127063;
+}
+@media only screen and (max-width: 500px) {
+	.wrap {
+		gap: 8px;
+	}
 }

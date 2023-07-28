@@ -1,6 +1,7 @@
 import Icons from '@/libs/Icon';
 import style from './style.module.css';
 import Input from '@/components/ui/inputs/Input';
+import Button from '@/components/ui/buttons/Button';
 
 function ContactInfo() {
 	return (
@@ -35,16 +36,33 @@ function ContactInfo() {
 							</p>
 						</div>
 					</div>
+					<span className={style.bgCircle}></span>
+					<span className={style.smallCircle}></span>
 				</div>
 				<div className={style.__right}>
 					<form className={style.formWrap} action="">
 						<div className={style.inputBox}>
 							<Input label="First Name" name="fName" />
-							<Input label="First Name" name="lName" />
+							<Input label="Last Name" name="lName" />
 						</div>
 						<div className={style.inputBox}>
-							<Input label="First Name" name="email" />
-							<Input label="First Name" name="phoneNumber" />
+							<Input label="Email" name="email" />
+
+							<Input
+								label="Phone Number"
+								placeholder="+1 012 3456 789"
+								name="phoneNumber"
+							/>
+						</div>
+						<div className={style.inputBox}>
+							<Input
+								label="Message"
+								name="Message"
+								placeholder="Write your message.."
+							/>
+						</div>
+						<div className="flex justify-end">
+							<Button text="Send Message" />
 						</div>
 					</form>
 				</div>

@@ -24,3 +24,6 @@
 		@apply mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700;
 	}
 }
+
+@media only screen and (max-width: 600px) {
+}
