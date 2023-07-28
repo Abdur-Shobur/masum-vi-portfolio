@@ -1,0 +1,82 @@
+.contactInfo {
+	max-width: 1140px;
+	margin: 111px auto;
+}
+
+.wrap {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	justify-content: space-between;
+}
+.__left {
+	border-radius: 8px;
+	background: #162e2a;
+	width: 458px;
+	height: 464px;
+	padding: 40px;
+}
+
+.infoTitle {
+	color: #fff;
+	leading-trim: both;
+	text-edge: cap;
+
+	/* Hind/P-28px - Semibold */
+	font-family: Hind;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 28px; /* 100% */
+	margin-bottom: 20px;
+}
+.infoSubTitle {
+	color: #c9c9c9;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+}
+.dataBox {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+.contactData {
+	display: flex;
+	flex-direction: column;
+	gap: 44px;
+	margin-top: 92px;
+}
+.iconBox {
+	width: 24px;
+}
+.icon {
+	color: #fff;
+	font-size: 24px;
+}
+.dataText {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.__right {
+	flex-grow: 1;
+}
+.inputBox {
+	display: flex;
+	gap: 38px;
+}
+
+.formWrap {
+	display: flex;
+	flex-direction: column;
+	gap: 44px;
+}

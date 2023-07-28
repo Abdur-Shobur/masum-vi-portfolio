@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Hind:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--main: #127063;
+	--paragraph: #62676b;
+	--heading: #162e2a;
+}
+
+@layer components {
+	.box {
+		@apply flex flex-col rounded-lg border p-4 md:p-6;
+	}
+	.heading {
+		@apply mb-2 text-lg font-semibold md:text-xl hover:text-blue-700;
+	}
+	.paragraph {
+		@apply mb-4 text-gray-500;
+	}
+	.button {
+		@apply mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700;
+	}
+}
