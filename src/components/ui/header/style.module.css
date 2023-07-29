@@ -1,0 +1,38 @@
+.headerBox {
+	display: flex;
+	align-items: center;
+	gap: 26px;
+	margin-bottom: 36px;
+}
+
+.line {
+	width: 100px;
+	height: 2px;
+	background: #162e2a;
+	display: flex;
+}
+
+.section {
+	color: #162e2a;
+	font-family: Hind;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px; /* 140% */
+	text-transform: uppercase;
+}
+
+.tittle {
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Hind;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 51px;
+	text-transform: capitalize;
+	color: #162e2a;
+}
+.tittle .t2 {
+	color: #127063;
+}
