@@ -1,24 +1,31 @@
 import { useState } from 'react';
+import {
+	Accordion,
+	AccordionContent,
+	AccordionItem,
+	AccordionTrigger,
+} from '@/components/ui/accordion';
+import FaqElement from './FaqElement';
+import { faqData } from '@/lib/data/data';
+// dummy text
 
-const AccordionItem = ({ title, content }) => {
+export function AccordionDemo() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	const toggleAccordion = () => {
-		setIsOpen((prevIsOpen) => !prevIsOpen);
+		setIsOpen((prevOpen) => !prevOpen);
 	};
 
 	return (
-		<div className="collapse collapse-arrow join-item border border-base-300">
-			<input type="radio" name="my-accordion-4" checked={isOpen} />
-			<div
-				className="collapse-title text-xl font-medium"
-				onClick={toggleAccordion}
-			>
-				{title}
-			</div>
-			{isOpen && <div className="collapse-content">{content}</div>}
-		</div>
+		<Accordion
+			type="single"
+			collapsible
+			defaultValue="item-2"
+			className="w-full"
+		>
+			{faqData?.map((e) => (
+				<FaqElement data={e} key={e.id} />
+			))}
+		</Accordion>
 	);
-};
-
-export default AccordionItem;
+}

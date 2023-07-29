@@ -1,0 +1,20 @@
+.accordionItem {
+	color: var(--color-palatte-heading-color, #162e2a);
+	font-family: hind;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	border-radius: 8px;
+	border: 1px solid rgba(26, 54, 50, 0.18);
+	padding: 11px 32px;
+	margin-bottom: 30px;
+}
+
+.accordionItem button svg {
+	display: none;
+}
+.accordionItem button:hover {
+	text-decoration: none;
+}

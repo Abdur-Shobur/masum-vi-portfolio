@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.css';
 import Image from 'next/image';
-import Icons from '@/libs/Icon';
+import Icons from '@/lib/Icon';
 import Link from 'next/link';
 function Footer() {
 	return (

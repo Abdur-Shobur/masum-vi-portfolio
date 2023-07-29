@@ -1,4 +1,4 @@
-import Icons from '@/libs/Icon';
+import Icons from '@/lib/Icon';
 import { IButton } from '@/types/uiTypes';
 import Image from 'next/image';
 import React from 'react';

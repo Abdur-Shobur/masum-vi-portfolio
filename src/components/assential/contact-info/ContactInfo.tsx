@@ -1,4 +1,4 @@
-import Icons from '@/libs/Icon';
+import Icons from '@/lib/Icon';
 import style from './style.module.css';
 import Input from '@/components/ui/inputs/Input';
 import Button from '@/components/ui/buttons/Button';
