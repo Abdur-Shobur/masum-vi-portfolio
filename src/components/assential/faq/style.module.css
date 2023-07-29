@@ -4,3 +4,20 @@
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+.faqBox {
+	display: flex;
+	margin-top: 80px;
+}
+
+.imageBox {
+	width: 100%;
+	max-width: 530px;
+}
+
+@media only screen and (max-width: 950px) {
+	.faqBox {
+		flex-direction: column;
+		align-items: center;
+	}
+}

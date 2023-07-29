@@ -18,3 +18,40 @@
 .accordionItem button:hover {
 	text-decoration: none;
 }
+
+.accordionItem[data-state='open'] {
+	background: #162e2a;
+	color: #fff;
+}
+.icoMinus,
+.icoPlus {
+	display: none;
+}
+
+.accordionItem[data-state='open'] .icoMinus {
+	display: inline;
+}
+.accordionItem[data-state='open'] .Question {
+	color: #fff;
+}
+.accordionItem[data-state='closed'] .icoPlus {
+	display: inline;
+}
+
+.Answer {
+	color: rgba(255, 255, 255, 0.72);
+	font-family: hind;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.Question {
+	color: #162e2a;
+	font-family: hind;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}

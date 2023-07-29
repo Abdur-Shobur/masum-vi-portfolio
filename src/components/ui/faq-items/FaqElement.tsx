@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import style from './style.module.css';
 import {
 	AccordionContent,
@@ -15,17 +15,25 @@ function FaqElement({
 	};
 }) {
 	const [isOpen, setIsOpen] = useState(false);
+	const accordionRef = useRef(null);
 
 	const toggleAccordion = () => {
-		setIsOpen((prevOpen) => !prevOpen);
+		setIsOpen((prevIsOpen) => !prevIsOpen);
 	};
 	return (
-		<AccordionItem value={data.id.toString()} className={style.accordionItem}>
-			<AccordionTrigger onClick={toggleAccordion}>
+		<AccordionItem
+			ref={accordionRef}
+			value={data.id.toString()}
+			className={`${style.accordionItem} ${
+				!isOpen ? style.notActive : style.active
+			}`}
+		>
+			<AccordionTrigger className={style.Question} onClick={toggleAccordion}>
 				{data.q}
-				<span className="custom-icon">{!isOpen ? '-' : '+'}</span>
+				<span className={style.icoPlus}>+</span>
+				<span className={style.icoMinus}>-</span>
 			</AccordionTrigger>
-			<AccordionContent>{data.a}</AccordionContent>
+			<AccordionContent className={style.Answer}>{data.a}</AccordionContent>
 		</AccordionItem>
 	);
 }
