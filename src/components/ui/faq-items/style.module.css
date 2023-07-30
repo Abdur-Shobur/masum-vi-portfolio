@@ -55,3 +55,19 @@
 	font-weight: 500;
 	line-height: normal;
 }
+@media only screen and (max-width: 950px) {
+	.accordionItem {
+		padding: 0px 20px;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.Answer {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.Question {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,12 @@
+.cardWrap {
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+}
+
+.testimonial {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}

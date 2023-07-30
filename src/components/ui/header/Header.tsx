@@ -8,6 +8,7 @@ function Header({
 	tittle: {
 		t1: string;
 		t2: string;
+		t3?: string;
 	};
 }) {
 	return (
@@ -19,6 +20,7 @@ function Header({
 			<h1 className={style.tittle}>
 				<span className={style.t1}>{tittle.t1}</span>
 				<span className={style.t2}>{tittle.t2}</span>
+				<span className={style.t1}>{tittle.t3}</span>
 			</h1>
 		</div>
 	);

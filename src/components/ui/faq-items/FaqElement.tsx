@@ -9,7 +9,7 @@ function FaqElement({
 	data,
 }: {
 	data: {
-		id: number;
+		id: string;
 		q: string;
 		a: string;
 	};
@@ -22,6 +22,7 @@ function FaqElement({
 	};
 	return (
 		<AccordionItem
+			defaultValue="item-2"
 			ref={accordionRef}
 			value={data.id.toString()}
 			className={`${style.accordionItem} ${

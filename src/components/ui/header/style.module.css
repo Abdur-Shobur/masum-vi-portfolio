@@ -36,3 +36,32 @@
 .tittle .t2 {
 	color: #127063;
 }
+
+@media only screen and (max-width: 950px) {
+	.tittle {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.section {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.headerBox {
+		gap: 22px;
+		margin-bottom: 22px;
+	}
+}
+@media only screen and (max-width: 650px) {
+	.tittle {
+		font-size: 28px;
+		line-height: 30px;
+	}
+	.section {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.headerBox {
+		gap: 22px;
+		margin-bottom: 16px;
+	}
+}
