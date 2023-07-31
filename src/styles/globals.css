@@ -40,5 +40,44 @@
 	margin-left: 0.5rem;
 }
 
+/* swiper-custom.module.css */
+
+/* Style the swiper navigation arrows */
+.testimonial-slider-custom-class-lksdfkj .swiper-button-next,
+.testimonial-slider-custom-class-lksdfkj .swiper-button-prev {
+	/* Your custom styles for the arrows */
+	width: 58px;
+	height: 58px;
+	border: 1px solid rgba(16, 25, 31, 0.24);
+	border-radius: 50%;
+	transition: 0.3s;
+}
+.testimonial-slider-custom-class-lksdfkj .swiper-button-next::after,
+.testimonial-slider-custom-class-lksdfkj .swiper-button-prev::after {
+	/* Your custom styles for the arrows */
+	font-size: 24px;
+	color: #127063b6;
+}
+
+/* Optional: Add hover styles for the arrows */
+.testimonial-slider-custom-class-lksdfkj .swiper-button-next:hover,
+.testimonial-slider-custom-class-lksdfkj .swiper-button-prev:hover {
+	border: 1px solid #127063;
+}
+.testimonial-slider-custom-class-lksdfkj .swiper-pagination-bullet {
+	border-radius: 999px;
+	background: #1687775c;
+	width: 24px;
+	height: 5px;
+	opacity: 1;
+}
+.testimonial-slider-custom-class-lksdfkj
+	.swiper-pagination-bullet.swiper-pagination-bullet-active {
+	border-radius: 999px;
+	background: #168777;
+	width: 44px;
+	height: 5px;
+}
+
 @media only screen and (max-width: 600px) {
 }

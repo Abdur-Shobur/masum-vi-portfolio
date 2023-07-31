@@ -1,4 +1,4 @@
-import Icons from '../Icon';
+import Icons, { coursesImages } from '../Icon';
 
 export const faqData = [
 	{
@@ -63,5 +63,95 @@ export const testimonialData = [
 		userImage: Icons.user1,
 		userName: 'Mason Clark',
 		userPosition: 'Businessman',
+	},
+];
+
+export const courses = [
+	{
+		id: 1,
+		img: coursesImages.img1,
+		category: 'software engineer',
+		tags: ['top'],
+		name: 'Project Based Graphic Design Course',
+		enroll: '4.5',
+		review: '3',
+		star: '3.5',
+		prePrice: '60.99',
+		curPrice: '40.99',
+	},
+	{
+		id: 2,
+		img: coursesImages.img1,
+		category: 'software engineer',
+		tags: ['popular'],
+		name: 'Project Based Graphic Design Course',
+		enroll: '4.5',
+		review: '3',
+		star: '3.5',
+		prePrice: '60.99',
+		curPrice: '40.99',
+	},
+	{
+		id: 3,
+		img: coursesImages.img1,
+		category: 'software engineer',
+		tags: ['new'],
+		name: 'Project Based Graphic Design Course',
+		enroll: '4.5',
+		review: '3',
+		star: '3.5',
+		prePrice: '60.99',
+		curPrice: '40.99',
+	},
+	{
+		id: 4,
+		img: coursesImages.img1,
+		category: 'software engineer',
+		tags: ['top', 'popular'],
+		name: 'Project Based Graphic Design Course',
+		enroll: '4.5',
+		review: '3',
+		star: '3.5',
+		prePrice: '60.99',
+		curPrice: '40.99',
+	},
+	{
+		id: 5,
+		img: coursesImages.img1,
+		category: 'software engineer',
+		tags: ['top', 'new'],
+		name: 'Project Based Graphic Design Course',
+		enroll: '4.5',
+		review: '3',
+		star: '3.5',
+		prePrice: '60.99',
+		curPrice: '40.99',
+	},
+];
+
+export const counterData = [
+	{
+		id: 1,
+		value: 200,
+		title: 'Project',
+		suffix: '',
+	},
+	{
+		id: 2,
+		value: 200,
+		title: 'Students',
+		suffix: 'k+',
+	},
+	{
+		id: 3,
+		value: 200,
+		title: 'Happy Clients',
+		suffix: '',
+	},
+	{
+		id: 4,
+		value: 15,
+		title: 'Offers',
+		suffix: '+',
 	},
 ];

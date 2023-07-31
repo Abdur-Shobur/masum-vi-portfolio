@@ -1,7 +1,7 @@
 .card {
 	border-radius: 8px;
 	border: 2px solid rgba(16, 25, 31, 0.18);
-	width: 360px;
+	/* max-width: 360px; */
 	padding: 44px 34px 32px 34px;
 }
 .txt {

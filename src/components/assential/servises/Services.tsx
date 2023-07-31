@@ -1,4 +1,3 @@
-import TestimonialCard from '@/components/ui/cards/testimonial-card/TestimonialCard';
 import Header from '@/components/ui/header/Header';
 import style from './style.module.css';
 import { testimonialData } from '@/lib/data/data';
@@ -10,13 +9,15 @@ import { Navigation, Virtual, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-function Testimonial() {
+import ServicesCard from '@/components/ui/cards/service-card/ServicesCard';
+function Services() {
 	return (
-		<section className={style.testimonial}>
+		<section className={style.services}>
 			<Header
-				section="Testimonial"
-				tittle={{ t1: 'we’ve had the', t2: ' pleasure', t3: ' to work with' }}
+				section="our services"
+				tittle={{ t1: 'Unleashing The ', t2: 'Potential' }}
 			/>
+
 			<div className={style.sliderArea}>
 				<Swiper
 					slidesPerView={1}
@@ -42,7 +43,7 @@ function Testimonial() {
 				>
 					{testimonialData.map((e, i) => (
 						<SwiperSlide key={e.id} virtualIndex={i}>
-							<TestimonialCard key={e.id} data={e} />
+							<ServicesCard key={e.id} />
 						</SwiperSlide>
 					))}
 				</Swiper>
@@ -51,4 +52,4 @@ function Testimonial() {
 	);
 }
 
-export default Testimonial;
+export default Services;

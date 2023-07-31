@@ -1,0 +1,27 @@
+.countItem {
+}
+.countTitle {
+	color: var(--color-palatte-heading-color, #162e2a);
+	text-align: center;
+	leading-trim: both;
+	text-edge: cap;
+
+	/* Hind/P-32px - Semibold */
+	font-family: Hind;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.countValue {
+	color: var(--color-palatte-heading-color, #162e2a);
+	text-align: center;
+	leading-trim: both;
+	text-edge: cap;
+	font-family: Hind;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 68px; /* 94.444% */
+}

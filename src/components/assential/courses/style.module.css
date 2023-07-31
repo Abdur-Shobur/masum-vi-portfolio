@@ -1,0 +1,68 @@
+.courses {
+	max-width: 1160px;
+	margin: 112px auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.coursesCard {
+	margin-top: 70px;
+}
+.coursesLists {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	margin-bottom: 35px;
+}
+
+.filterBtn {
+	color: var(--color-palatte-heading-color, #162e2a);
+	text-align: center;
+	leading-trim: both;
+	text-edge: cap;
+
+	/* Hind/P-20px - Semibold */
+	font-family: Hind;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 44px; /* 140% */
+}
+.filterBtn.active {
+	color: #127063;
+	border-bottom: 2px solid #127063;
+}
+.bar {
+	background: rgba(193, 193, 193, 0.8);
+	width: 1px;
+	height: 14px;
+	display: inline-block;
+}
+.coursesCards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+@media only screen and (max-width: 1200px) {
+	.coursesCards {
+		gap: 20px;
+	}
+}
+@media only screen and (max-width: 920px) {
+	.coursesCards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media only screen and (max-width: 600px) {
+	.coursesCards {
+		grid-template-columns: 1fr;
+	}
+	.coursesLists {
+		gap: 16px;
+		margin-bottom: 24px;
+	}
+	.filterBtn {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 30px;
+	}
+}

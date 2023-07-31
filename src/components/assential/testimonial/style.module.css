@@ -3,10 +3,36 @@
 	gap: 30px;
 	justify-content: space-between;
 }
+.sliderArea {
+	margin-top: 70px;
+}
 
 .testimonial {
 	max-width: 1160px;
 	margin: 0 auto;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+/* swiper-custom.module.css */
+
+/* Style the swiper navigation arrows */
+.mySwiper .swiper-button-prev,
+.mySwiper .swiper-button-next {
+	/* Your custom styles for the arrows */
+	width: 40px;
+	height: 40px;
+	background-color: #ff0000; /* Replace with your desired background color */
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff; /* Arrow color */
+	font-size: 24px;
+}
+
+/* Optional: Add hover styles for the arrows */
+.mySwiper .custom-next-arrow:hover,
+.mySwiper .custom-prev-arrow:hover {
+	background-color: #00ff00; /* Replace with your desired hover background color */
 }
