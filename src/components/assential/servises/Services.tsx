@@ -1,6 +1,6 @@
 import Header from '@/components/ui/header/Header';
 import style from './style.module.css';
-import { testimonialData } from '@/lib/data/data';
+import { servicesData, testimonialData } from '@/lib/data/data';
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -41,9 +41,9 @@ function Services() {
 						},
 					}}
 				>
-					{testimonialData.map((e, i) => (
+					{servicesData.map((e, i) => (
 						<SwiperSlide key={e.id} virtualIndex={i}>
-							<ServicesCard key={e.id} />
+							<ServicesCard key={e.id} data={e} />
 						</SwiperSlide>
 					))}
 				</Swiper>

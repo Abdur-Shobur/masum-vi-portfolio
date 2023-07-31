@@ -4,6 +4,7 @@ import internetTread from '../../public/icons/internet-tread.svg';
 import marketing from '../../public/icons/marketing-ico.svg';
 import logoDark from '../../public/images/logo-dark.svg';
 import imageUser from '../../public/images/image-user.svg';
+import MasumBillah from '../../public/images/Masum-Billah 1.svg';
 import user1 from '../../public/images/user-1.svg';
 import line from '../../public/images/line.svg';
 import img1 from '../../public/images/courses-images/course-1.png';
@@ -11,9 +12,9 @@ import img2 from '../../public/images/courses-images/course-2.png';
 import img3 from '../../public/images/courses-images/course-3.png';
 import { BiLogoFacebook, BiLogoTelegram } from 'react-icons/bi';
 import { AiFillStar, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
-import { BsArrowRightShort, BsInstagram } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
-import { FiArrowRight, FiPhoneCall, FiMapPin } from 'react-icons/fi';
+import { FiPhoneCall, FiMapPin } from 'react-icons/fi';
 import { FaArrowRight, FaUser } from 'react-icons/fa';
 
 const Icons = {
@@ -42,6 +43,9 @@ export const coursesImages = {
 	img1,
 	img2,
 	img3,
+};
+export const MasumBillahImage = {
+	MasumBillah,
 };
 
 export default Icons;

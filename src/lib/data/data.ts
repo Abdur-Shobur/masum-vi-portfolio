@@ -155,3 +155,36 @@ export const counterData = [
 		suffix: '+',
 	},
 ];
+
+export const servicesData = [
+	{
+		id: 1,
+		icon: Icons.marketing,
+		title: 'Digital Marketing',
+		subText: `Our digital marketing services are tailored to elevate your brand's visibility, engage your target audience`,
+	},
+	{
+		id: 2,
+		icon: Icons.marketing,
+		title: 'Digital Marketing',
+		subText: `Our digital marketing services are tailored to elevate your brand's visibility, engage your target audience`,
+	},
+	{
+		id: 3,
+		icon: Icons.marketing,
+		title: 'Digital Marketing',
+		subText: `Our digital marketing services are tailored to elevate your brand's visibility, engage your target audience`,
+	},
+	{
+		id: 4,
+		icon: Icons.marketing,
+		title: 'Digital Marketing',
+		subText: `Our digital marketing services are tailored to elevate your brand's visibility, engage your target audience`,
+	},
+	{
+		id: 5,
+		icon: Icons.marketing,
+		title: 'Digital Marketing',
+		subText: `Our digital marketing services are tailored to elevate your brand's visibility, engage your target audience`,
+	},
+];

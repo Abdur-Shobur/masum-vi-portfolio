@@ -17,3 +17,9 @@ export interface ICount {
 	title: string;
 	suffix: string;
 }
+export interface IService {
+	id: number;
+	icon: any;
+	title: string;
+	subText: string;
+}
