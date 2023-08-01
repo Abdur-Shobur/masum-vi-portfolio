@@ -25,3 +25,27 @@
 	font-weight: 700;
 	line-height: 68px; /* 94.444% */
 }
+@media only screen and (max-width: 850px) {
+	.countTitle {
+		font-size: 25px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		text-transform: capitalize;
+	}
+	.countValue {
+		font-size: 50px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 50px;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.countTitle {
+		font-size: 16px;
+	}
+	.countValue {
+		font-size: 30px;
+		line-height: 30px;
+	}
+}
