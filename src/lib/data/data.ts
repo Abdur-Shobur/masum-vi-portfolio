@@ -188,3 +188,37 @@ export const servicesData = [
 		subText: `Our digital marketing services are tailored to elevate your brand's visibility, engage your target audience`,
 	},
 ];
+
+// nav bar
+export const navItems = [
+	{
+		id: 1,
+		nav: 'Home',
+		path: '/',
+	},
+	{
+		id: 2,
+		nav: 'About',
+		path: '/about',
+	},
+	{
+		id: 3,
+		nav: 'Service & Training',
+		path: '/service-&-training',
+	},
+	{
+		id: 4,
+		nav: 'Resume',
+		path: '/resume',
+	},
+	{
+		id: 5,
+		nav: 'Blog',
+		path: '/blog',
+	},
+	{
+		id: 6,
+		nav: 'Contact Us',
+		path: '/contact-us',
+	},
+];

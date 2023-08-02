@@ -1,0 +1,27 @@
+.desktopNav {
+	margin: 0 auto;
+	max-width: 1160px;
+	padding: 28px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navBox {
+	display: flex;
+	gap: 40px;
+	align-items: center;
+}
+
+.naves {
+	display: flex;
+	align-items: center;
+	gap: 28px;
+}
+.nav {
+	color: var(--color-palatte-paragraph-color, #62676b);
+	font-family: Hind;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}

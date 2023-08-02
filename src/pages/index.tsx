@@ -7,10 +7,14 @@ import Courses from '@/components/assential/courses/Courses';
 import Counter from '@/components/assential/counter/Counter';
 import Services from '@/components/assential/servises/Services';
 import WhyChooseMe from '@/components/assential/why-choose-me/WhyChooseMe';
+import Banner from '@/components/assential/banner/Banner';
+import DesktopNav from '@/components/layout/desktop-nav/DesktopNav';
 
 export default function Home() {
 	return (
 		<main className="bg-white ">
+			<DesktopNav />
+			<Banner />
 			<WhyChooseMe />
 			<Services />
 			<Counter />

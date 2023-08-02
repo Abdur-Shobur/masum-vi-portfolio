@@ -3,8 +3,10 @@ import digitalMarking from '../../public/icons/digital-marketing.svg';
 import internetTread from '../../public/icons/internet-tread.svg';
 import marketing from '../../public/icons/marketing-ico.svg';
 import logoDark from '../../public/images/logo-dark.svg';
+import logo from '../../public/images/logo.svg';
 import imageUser from '../../public/images/image-user.svg';
 import MasumBillah from '../../public/images/Masum-Billah 1.svg';
+import BannerImage from '../../public/images/banner-bg.svg';
 import user1 from '../../public/images/user-1.svg';
 import line from '../../public/images/line.svg';
 import img1 from '../../public/images/courses-images/course-1.png';
@@ -25,8 +27,8 @@ const Icons = {
 	imageUser,
 	marketing,
 	User: FaUser,
-	Map: FiMapPin,
 	internetTread,
+	Map: FiMapPin,
 	digitalMarking,
 	Start: AiFillStar,
 	Call: FiPhoneCall,
@@ -46,6 +48,8 @@ export const coursesImages = {
 };
 export const MasumBillahImage = {
 	MasumBillah,
+	logo,
+	BannerImage,
 };
 
 export default Icons;
