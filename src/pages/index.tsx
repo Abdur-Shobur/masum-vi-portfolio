@@ -9,11 +9,11 @@ import Services from '@/components/assential/servises/Services';
 import WhyChooseMe from '@/components/assential/why-choose-me/WhyChooseMe';
 import Banner from '@/components/assential/banner/Banner';
 import DesktopNav from '@/components/layout/desktop-nav/DesktopNav';
+import LayoutOne from '@/components/layout/LayoutOne';
 
 export default function Home() {
 	return (
 		<main className="bg-white ">
-			<DesktopNav />
 			<Banner />
 			<WhyChooseMe />
 			<Services />
@@ -23,7 +23,10 @@ export default function Home() {
 			<Faq />
 			<ContactInfo />
 			<ProjectInMind />
-			<Footer />
 		</main>
 	);
 }
+
+Home.getLayout = function getLayout(page: ReactElement) {
+	return <LayoutOne>{page}</LayoutOne>;
+};

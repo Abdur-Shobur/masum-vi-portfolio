@@ -18,10 +18,16 @@
 	gap: 28px;
 }
 .nav {
-	color: var(--color-palatte-paragraph-color, #62676b);
+	color: #62676b;
 	font-family: Hind;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
+}
+
+@media only screen and (max-width: 1100px) {
+	.navBox {
+		display: none;
+	}
 }
