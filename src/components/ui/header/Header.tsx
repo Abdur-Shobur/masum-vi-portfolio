@@ -7,7 +7,7 @@ function Header({
 	section: string;
 	tittle: {
 		t1: string;
-		t2: string;
+		t2?: string;
 		t3?: string;
 	};
 }) {

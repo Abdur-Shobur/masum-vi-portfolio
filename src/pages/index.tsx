@@ -10,6 +10,7 @@ import WhyChooseMe from '@/components/assential/why-choose-me/WhyChooseMe';
 import Banner from '@/components/assential/banner/Banner';
 import DesktopNav from '@/components/layout/desktop-nav/DesktopNav';
 import LayoutOne from '@/components/layout/LayoutOne';
+import { ReactElement } from 'react';
 
 export default function Home() {
 	return (

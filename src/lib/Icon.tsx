@@ -7,11 +7,13 @@ import logo from '../../public/images/logo.svg';
 import imageUser from '../../public/images/image-user.svg';
 import MasumBillah from '../../public/images/Masum-Billah 1.svg';
 import BannerImage from '../../public/images/banner-bg.svg';
+import galleryImage from '../../public/images/Masum-Billah-QB34 2.svg';
 import user1 from '../../public/images/user-1.svg';
 import line from '../../public/images/line.svg';
 import img1 from '../../public/images/courses-images/course-1.png';
 import img2 from '../../public/images/courses-images/course-2.png';
 import img3 from '../../public/images/courses-images/course-3.png';
+import ArrowRoundDown from '../../public/icons/arrow-down.png';
 import { BiLogoFacebook, BiLogoTelegram } from 'react-icons/bi';
 import { AiFillStar, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 import { BsInstagram } from 'react-icons/bs';
@@ -27,9 +29,11 @@ const Icons = {
 	imageUser,
 	marketing,
 	User: FaUser,
+	galleryImage,
 	internetTread,
 	Map: FiMapPin,
 	digitalMarking,
+	ArrowRoundDown,
 	Start: AiFillStar,
 	Call: FiPhoneCall,
 	Mail: HiOutlineMail,

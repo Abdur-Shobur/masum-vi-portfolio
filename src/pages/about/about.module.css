@@ -1,0 +1,12 @@
+.imageBox {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 112px;
+	margin-bottom: 112px;
+}
+
+.galleryImage {
+	border-radius: 15px;
+}
