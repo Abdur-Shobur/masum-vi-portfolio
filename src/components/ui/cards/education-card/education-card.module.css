@@ -1,0 +1,38 @@
+.educationWrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 4px;
+	align-self: stretch;
+}
+.uName {
+	color: var(--color-palatte-paragraph-color, #62676b);
+
+	/* Open sans/P-16px - Regular */
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.eduLevel {
+	color: var(--color-palatte-heading-color, #162e2a);
+
+	/* Popins/P-16px - Medium */
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.eduDate {
+	color: var(--color-palatte-paragraph-color, #62676b);
+
+	/* Open sans/P-16px - Regular */
+	font-family: Open Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}

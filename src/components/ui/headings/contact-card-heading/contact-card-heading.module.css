@@ -1,0 +1,25 @@
+.wrap {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid rgba(17, 17, 17, 0.18);
+	margin-bottom: 20px;
+	margin-top: 44px;
+}
+
+.heading {
+	color: var(--color-palatte-heading-color, #162e2a);
+	leading-trim: both;
+	text-edge: cap;
+
+	/* Hind/P-24px - Midium */
+	font-family: Hind;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+.ico {
+	font-size: 35px;
+}

@@ -4,10 +4,13 @@ import React, { ReactElement } from 'react';
 import style from './about.module.css';
 import Image from 'next/image';
 import Icons from '@/lib/Icon';
+import ProfileCard from '@/components/ui/cards/profile-card';
+import ContactCard from '@/components/ui/cards/contact-card';
+import EducationCard from '@/components/ui/cards/education-card';
 
 function About() {
 	return (
-		<div>
+		<div className="layout">
 			<MainHead section="About Me" tittle={{ t1: 'Unveiling Story', t2: '' }} />
 			<div className={style.imageBox}>
 				<Image
@@ -18,7 +21,11 @@ function About() {
 			</div>
 
 			<div className={style.aboutWrap}>
-				<div className={style.aboutWrap__left}></div>
+				<div className={style.aboutWrap__left}>
+					<ProfileCard />
+					<ContactCard />
+					<EducationCard />
+				</div>
 				<div className={style.aboutWrap__right}></div>
 			</div>
 		</div>

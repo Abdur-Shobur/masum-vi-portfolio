@@ -10,3 +10,10 @@
 .galleryImage {
 	border-radius: 15px;
 }
+
+.aboutWrap__left {
+	border-radius: 8px;
+	border: 2px solid rgba(61, 61, 61, 0.18);
+	width: 360px;
+	padding: 28px;
+}

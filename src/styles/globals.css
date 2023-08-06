@@ -24,6 +24,13 @@
 		@apply mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700;
 	}
 }
+
+.layout {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 /* styles.css (or styles.scss) */
 .custom-collapsible .collapsible__item {
 	border-bottom: none;
