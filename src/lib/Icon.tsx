@@ -8,6 +8,8 @@ import imageUser from '../../public/images/image-user.svg';
 import MasumBillah from '../../public/images/Masum-Billah 1.svg';
 import BannerImage from '../../public/images/banner-bg.svg';
 import galleryImage from '../../public/images/Masum-Billah-QB34 2.svg';
+import Bgresume from '../../public/images/bg-resume.svg';
+import galleryImage2 from '../../public/images/Masum-Billah-QB36 1.svg';
 import user1 from '../../public/images/user-1.svg';
 import line from '../../public/images/line.svg';
 import img1 from '../../public/images/courses-images/course-1.png';
@@ -63,6 +65,11 @@ export const MasumBillahImage = {
 	MasumBillah,
 	logo,
 	BannerImage,
+	galleryImage2,
+	Bgresume,
+};
+export const Bg = {
+	Bgresume,
 };
 
 export default Icons;

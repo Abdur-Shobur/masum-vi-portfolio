@@ -7,6 +7,7 @@ import Icons from '@/lib/Icon';
 import ProfileCard from '@/components/ui/cards/profile-card';
 import ContactCard from '@/components/ui/cards/contact-card';
 import EducationCard from '@/components/ui/cards/education-card';
+import SkillsCard from '@/components/ui/cards/skils-card';
 
 function About() {
 	return (
@@ -25,8 +26,41 @@ function About() {
 					<ProfileCard />
 					<ContactCard />
 					<EducationCard />
+					<SkillsCard />
 				</div>
-				<div className={style.aboutWrap__right}></div>
+				<div className={style.aboutWrap__right}>
+					<h1 className={style.aboutMe}>
+						About <span className={style.name}>Md Masum Billah</span>
+					</h1>
+					<p className={style.aboutDetails}>
+						let me Introduce MD Masum Billah, better known as Masum Billah Musa,
+						a dynamic and accomplished professional making waves in the digital
+						landscape. With a remarkable track record spanning over 8 years, I
+						excel in various domains, including Metal (Gold) & Forex Trading,
+						Trading Analysis, Equity Trading, Digital Marketing,
+					</p>
+					<p className={style.aboutDetails}>
+						let me Introduce MD Masum Billah, better known as Masum Billah Musa,
+						a dynamic and accomplished professional making waves in the digital
+						landscape. With a remarkable track record spanning over 8 years, I
+						excel in various domains, including Metal (Gold) & Forex Trading,
+						Trading Analysis, Equity Trading, Digital Marketing,
+					</p>
+					<p className={style.aboutDetails}>
+						let me Introduce MD Masum Billah, better known as Masum Billah Musa,
+						a dynamic and accomplished professional making waves in the digital
+						landscape. With a remarkable track record spanning over 8 years, I
+						excel in various domains, including Metal (Gold) & Forex Trading,
+						Trading Analysis, Equity Trading, Digital Marketing,
+					</p>
+					<p className={style.aboutDetails}>
+						let me Introduce MD Masum Billah, better known as Masum Billah Musa,
+						a dynamic and accomplished professional making waves in the digital
+						landscape. With a remarkable track record spanning over 8 years, I
+						excel in various domains, including Metal (Gold) & Forex Trading,
+						Trading Analysis, Equity Trading, Digital Marketing,
+					</p>
+				</div>
 			</div>
 		</div>
 	);

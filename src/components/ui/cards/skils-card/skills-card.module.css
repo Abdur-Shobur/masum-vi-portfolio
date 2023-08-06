@@ -1,0 +1,16 @@
+.progressbarWrap {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.title {
+	color: var(--color-palatte-paragraph-color, #62676b);
+
+	/* Popins/P-16px - Medium */
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	width: 100px;
+}
