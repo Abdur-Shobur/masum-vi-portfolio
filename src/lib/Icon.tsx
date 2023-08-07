@@ -16,7 +16,12 @@ import img1 from '../../public/images/courses-images/course-1.png';
 import img2 from '../../public/images/courses-images/course-2.png';
 import img3 from '../../public/images/courses-images/course-3.png';
 import ArrowRoundDown from '../../public/icons/arrow-down.png';
-import { BiLogoFacebook, BiLogoTelegram, BiSolidContact } from 'react-icons/bi';
+import {
+	BiLogoFacebook,
+	BiLogoTelegram,
+	BiSearch,
+	BiSolidContact,
+} from 'react-icons/bi';
 import { AiFillStar, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 import { BsInstagram } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -50,6 +55,7 @@ const Icons = {
 	Telegram: BiLogoTelegram,
 	youTube: PiYoutubeLogoFill,
 	contact: BiSolidContact,
+	search: BiSearch,
 	Twitter: AiOutlineTwitter,
 	RightArrow: FaArrowRight,
 	Education: MdCastForEducation,
