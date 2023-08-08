@@ -1,0 +1,48 @@
+.nxtBtnTxt {
+	color: var(--color-palatte-hover-color, #10191f);
+	font-family: Open Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px; /* 166.667% */
+}
+.ico {
+	font-size: 14px;
+}
+
+.wrap {
+	display: flex;
+	height: 61px;
+	padding-top: 20px;
+	justify-content: space-between;
+	align-items: center;
+	align-self: stretch;
+}
+
+.nxtBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+.pageBtnGroup {
+	display: flex;
+	align-items: flex-start;
+	gap: 2px;
+}
+.pageBtn {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+	align-self: stretch;
+	border-radius: 8px;
+	color: #10191f;
+}
+
+.pageBtn.active {
+	color: #fff;
+	background-color: #10191f;
+}

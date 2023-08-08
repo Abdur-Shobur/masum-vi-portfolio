@@ -4,6 +4,7 @@ import React, { ReactElement } from 'react';
 import style from './blog.module.css';
 import SearchBox from '@/components/ui/search';
 import Articles from '@/components/assential/articles';
+import Pagination from '@/components/ui/pagination';
 
 function Blog() {
 	return (
@@ -14,6 +15,7 @@ function Blog() {
 			/>
 			<SearchBox />
 			<Articles />
+			<Pagination />
 		</div>
 	);
 }

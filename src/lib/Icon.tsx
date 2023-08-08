@@ -23,10 +23,10 @@ import {
 	BiSolidContact,
 } from 'react-icons/bi';
 import { AiFillStar, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
-import { BsInstagram } from 'react-icons/bs';
+import { BsInstagram, BsThreeDots } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FiPhoneCall, FiMapPin } from 'react-icons/fi';
-import { FaArrowRight, FaUser } from 'react-icons/fa';
+import { FaArrowLeft, FaArrowRight, FaUser } from 'react-icons/fa';
 import { PiYoutubeLogoFill } from 'react-icons/pi';
 import { BsFacebook } from 'react-icons/bs';
 import { MdCastForEducation } from 'react-icons/md';
@@ -58,6 +58,8 @@ const Icons = {
 	search: BiSearch,
 	Twitter: AiOutlineTwitter,
 	RightArrow: FaArrowRight,
+	LeftArrow: FaArrowLeft,
+	ThreeDots: BsThreeDots,
 	Education: MdCastForEducation,
 	Internet: TbWorld,
 };
