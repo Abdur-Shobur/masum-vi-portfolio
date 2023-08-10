@@ -1,17 +1,17 @@
 import MainHead from '@/components/assential/MainHead';
-import React, { ReactElement } from 'react';
-import style from './blog.module.css';
+import style from './style.module.css';
 import SearchBox from '@/components/ui/search';
 import Articles from '@/components/assential/articles';
 import Pagination from '@/components/ui/pagination';
 import LayoutTwo from '@/components/layout/LayoutTwo';
+import { ReactElement } from 'react';
 
-function Blog() {
+function PersonalBlog() {
 	return (
 		<div className="layout">
 			<MainHead
-				section="Blog"
-				tittle={{ t1: 'Articles & ', t2: 'Resources' }}
+				section="Personal Blogs"
+				tittle={{ t1: 'Soul Through ', t2: 'Poetry' }}
 			/>
 			<SearchBox />
 			<Articles />
@@ -20,8 +20,8 @@ function Blog() {
 	);
 }
 
-export default Blog;
+export default PersonalBlog;
 
-Blog.getLayout = function getLayout(page: ReactElement) {
+PersonalBlog.getLayout = function getLayout(page: ReactElement) {
 	return <LayoutTwo>{page}</LayoutTwo>;
 };

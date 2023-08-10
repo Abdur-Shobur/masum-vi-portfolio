@@ -222,3 +222,30 @@ export const navItems = [
 		path: '/contact-us',
 	},
 ];
+export const navItems2 = [
+	{
+		id: 1,
+		nav: 'Home',
+		path: '/',
+	},
+	{
+		id: 2,
+		nav: 'About',
+		path: '/about',
+	},
+	{
+		id: 3,
+		nav: 'Blog',
+		path: '/blog',
+	},
+	{
+		id: 4,
+		nav: 'Personal Blog',
+		path: '/personal-blog',
+	},
+	{
+		id: 5,
+		nav: 'Contact Us',
+		path: '/contact-us',
+	},
+];

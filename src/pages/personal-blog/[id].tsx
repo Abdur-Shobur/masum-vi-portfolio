@@ -10,10 +10,7 @@ import LayoutTwo from '@/components/layout/LayoutTwo';
 function Blogs() {
 	return (
 		<div className="layout">
-			<MainHead
-				section="Digital Marketing"
-				tittle={{ t1: 'Digital Marketing ', t2: 'Tricks' }}
-			/>
+			<MainHead section="Poetry" tittle={{ t1: 'Ei', t2: ' Shohor' }} />
 			<div className="">
 				<Image
 					className={style.bannerImg}

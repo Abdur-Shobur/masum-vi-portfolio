@@ -6,6 +6,7 @@ import logoDark from '../../public/images/logo-dark.svg';
 import logo from '../../public/images/logo.svg';
 import imageUser from '../../public/images/image-user.svg';
 import MasumBillah from '../../public/images/Masum-Billah 1.svg';
+import profile from '../../public/images/masum-01.jpg';
 import BannerImage from '../../public/images/banner-bg.svg';
 import galleryImage from '../../public/images/Masum-Billah-QB34 2.svg';
 import Bgresume from '../../public/images/bg-resume.svg';
@@ -15,6 +16,7 @@ import line from '../../public/images/line.svg';
 import img1 from '../../public/images/courses-images/course-1.png';
 import img2 from '../../public/images/courses-images/course-2.png';
 import img3 from '../../public/images/courses-images/course-3.png';
+import MarketingImg from '../../public/images/markting-img.jpg';
 import ArrowRoundDown from '../../public/icons/arrow-down.png';
 import {
 	BiLogoFacebook,
@@ -26,11 +28,18 @@ import { AiFillStar, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 import { BsInstagram, BsThreeDots } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FiPhoneCall, FiMapPin } from 'react-icons/fi';
-import { FaArrowLeft, FaArrowRight, FaUser } from 'react-icons/fa';
+import {
+	FaAngleLeft,
+	FaAngleRight,
+	FaArrowLeft,
+	FaArrowRight,
+	FaUser,
+} from 'react-icons/fa';
 import { PiYoutubeLogoFill } from 'react-icons/pi';
 import { BsFacebook } from 'react-icons/bs';
 import { MdCastForEducation } from 'react-icons/md';
 import { TbWorld } from 'react-icons/tb';
+import { LiaAngleRightSolid, LiaAngleLeftSolid } from 'react-icons/lia';
 
 const Icons = {
 	line,
@@ -58,7 +67,9 @@ const Icons = {
 	search: BiSearch,
 	Twitter: AiOutlineTwitter,
 	RightArrow: FaArrowRight,
+	RightAngle: LiaAngleRightSolid,
 	LeftArrow: FaArrowLeft,
+	LeftAAngle: LiaAngleLeftSolid,
 	ThreeDots: BsThreeDots,
 	Education: MdCastForEducation,
 	Internet: TbWorld,
@@ -75,9 +86,11 @@ export const MasumBillahImage = {
 	BannerImage,
 	galleryImage2,
 	Bgresume,
+	profile,
 };
 export const Bg = {
 	Bgresume,
+	MarketingImg,
 };
 
 export default Icons;
