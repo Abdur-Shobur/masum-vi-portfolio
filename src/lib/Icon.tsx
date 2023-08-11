@@ -16,6 +16,7 @@ import line from '../../public/images/line.svg';
 import img1 from '../../public/images/courses-images/course-1.png';
 import img2 from '../../public/images/courses-images/course-2.png';
 import img3 from '../../public/images/courses-images/course-3.png';
+import usr from '../../public/images/usr.jpg';
 import MarketingImg from '../../public/images/markting-img.jpg';
 import ArrowRoundDown from '../../public/icons/arrow-down.png';
 import {
@@ -73,6 +74,10 @@ const Icons = {
 	ThreeDots: BsThreeDots,
 	Education: MdCastForEducation,
 	Internet: TbWorld,
+};
+
+export const DummyImg = {
+	usr,
 };
 
 export const coursesImages = {

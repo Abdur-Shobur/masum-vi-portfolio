@@ -1,0 +1,82 @@
+.cardWrap {
+	display: flex;
+	align-items: flex-start;
+	gap: 28px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.cardWrap:not(:first-child) {
+	border-top: 1px solid #c7c7c7;
+}
+.userProfile,
+.user {
+	object-fit: cover;
+	width: 96px;
+	height: 96px;
+}
+.Contents {
+	flex: 1;
+}
+.userName {
+	color: var(--color-palatte-main-color, #127063);
+	leading-trim: both;
+	text-edge: cap;
+
+	/* Hind/P-24px - Midium */
+	font-family: Hind;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+.comments {
+	color: var(--color-palatte-paragraph-color, #62676b);
+	leading-trim: both;
+	text-edge: cap;
+
+	/* DM Sans/P-18px - Regular */
+	font-family: DM Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px; /* 155.556% */
+	margin-bottom: 8px;
+}
+
+.replaySections {
+	border-top: 1px solid #c7c7c7;
+	margin-top: 20px;
+}
+.perCommentReplay {
+	color: var(--color-palatte-main-color, #127063);
+	leading-trim: both;
+	text-edge: cap; /* Hind/P-20px - Midium */
+	font-family: Hind;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px; /* 140% */
+}
+
+.ReplayCard {
+	display: flex;
+	align-items: flex-start;
+	gap: 24px;
+	padding-top: 30px;
+}
+
+.ReplayCard .userProfile,
+.ReplayCard .user {
+	width: 83.403px;
+	height: 83.403px;
+	flex-shrink: 0;
+}
+
+.ReplayCard .userName {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.ReplayCard .perCommentReplay {
+	font-size: 17px;
+}

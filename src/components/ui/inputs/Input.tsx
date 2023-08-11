@@ -13,7 +13,7 @@ function Input({ label, name, type = 'text', placeholder }: IInput) {
 				id={name}
 				placeholder={placeholder}
 			/>
-			<span className={style.border}></span>
+			{/* <span className={style.border}></span> */}
 		</div>
 	);
 }

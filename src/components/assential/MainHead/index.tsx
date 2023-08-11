@@ -6,8 +6,10 @@ import Icons from '@/lib/Icon';
 function MainHead({
 	section,
 	tittle,
+	subTxt,
 }: {
 	section: string;
+	subTxt?: string;
 	tittle: {
 		t1: string;
 		t2?: string;
@@ -20,6 +22,7 @@ function MainHead({
 				<Header section={section} tittle={tittle} />
 				<Image alt="arrow-down" src={Icons.ArrowRoundDown} />
 			</div>
+			<p className={style.subTxt}>{subTxt}</p>
 		</div>
 	);
 }

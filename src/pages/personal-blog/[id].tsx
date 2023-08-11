@@ -7,6 +7,7 @@ import ProfileInfoAndShare from '@/components/ui/cards/profile-card-with-social'
 import { Quotations1 } from '@/components/ui/paragraph';
 import ArticleCard from '@/components/ui/cards/article-card';
 import LayoutTwo from '@/components/layout/LayoutTwo';
+import CommentBox from '@/components/assential/comment-box';
 function Blogs() {
 	return (
 		<div className="layout">
@@ -64,6 +65,7 @@ function Blogs() {
 					<Quotations1 txt="Web design essentials are the building blocks of creating a successful online presence. From clear and intuitive navigation to responsive design, compelling visuals, and user-friendly forms, these elements work together to enhance the user experience and engage visitors." />
 				</div>
 			</div>
+			<CommentBox />
 			<div className={style.relatedArtBox}>
 				<div className={style.titleBox}>
 					<h1 className={style.relatedTxt}>Related articles</h1>

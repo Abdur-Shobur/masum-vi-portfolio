@@ -1,0 +1,23 @@
+.title {
+	color: var(--color-palatte-heading-color, #162e2a);
+	leading-trim: both;
+	text-edge: cap;
+
+	/* Hind/P-32px - Semibold */
+	font-family: Hind;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 50px;
+}
+
+.inputBoxes {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.subBtn {
+	margin-top: 50px;
+}
