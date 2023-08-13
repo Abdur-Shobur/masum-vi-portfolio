@@ -5,7 +5,7 @@ const icons = {
 	Education: Icons.Education,
 	Internet: Icons.Internet,
 };
-function ContactCardHeading({ icon = 'contact', text }) {
+function ContactCardHeading({ icon = 'contact', text = '' }) {
 	return (
 		<div className={style.wrap}>
 			{icon === 'contact' ? (
