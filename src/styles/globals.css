@@ -88,3 +88,12 @@
 
 @media only screen and (max-width: 600px) {
 }
+
+.textAnimation {
+	font-family: Hind;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	color: #127063;
+}

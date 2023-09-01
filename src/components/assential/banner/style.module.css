@@ -22,7 +22,6 @@
 }
 
 .pill {
-	color: #127063;
 	leading-trim: both;
 	text-edge: cap;
 	font-family: Hind;
@@ -31,6 +30,7 @@
 	font-weight: 500;
 	line-height: 28px;
 	border-radius: 28px;
+	color: #127063;
 	background: rgba(27, 166, 147, 0.19);
 	display: flex;
 	padding: 12px 18px;
@@ -38,35 +38,44 @@
 	align-items: center;
 	gap: 10px;
 	width: max-content;
+	transition: 0.3s ease-in-out;
+}
+
+.pill:hover {
+	background: rgba(27, 166, 147, 0.419);
+	border-radius: 20px;
 }
 
 .name {
 	color: var(--color-palatte-heading-color, #162e2a);
-	leading-trim: both;
-	text-edge: cap;
-
-	/* Hind/H1-60px - Bold */
 	font-family: Hind;
 	font-size: 60px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 80px; /* 133.333% */
+	margin-top: 30px;
+	line-height: 50px;
 }
-.textAnimation {
-	leading-trim: both;
-	text-edge: cap;
+.mainName {
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	transition: 0.3s;
+}
 
-	/* Hind/P-36px - Bold */
-	font-family: Hind;
-	font-size: 36px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	background: linear-gradient(90deg, #1ea18f 0%, #162e2a 100%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.mainName:hover {
+	text-shadow: 0 0 10px #ffffff79, 0 0 20px #ffffff5e, 0 0 40px #ffffff53;
 }
+.nameBefore {
+	border-radius: 5px;
+	position: absolute;
+	width: 103%;
+	height: 75%;
+	left: -5px;
+	top: 5px;
+	z-index: -1;
+	background-color: #fcad26;
+}
+
 .subText {
 	color: var(--color-palatte-paragraph-color, #62676b);
 	leading-trim: both;
@@ -79,23 +88,13 @@
 	font-weight: 400;
 	line-height: 28px; /* 155.556% */
 }
+
 .btnBox {
 	display: flex;
 	align-items: center;
 	gap: 40px;
 }
 
-.letsChatBtn {
-	display: flex;
-	align-items: center;
-	color: var(--color-palatte-heading-color, #162e2a);
-	font-family: DM Sans;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: normal;
-	gap: 12px;
-}
 @media only screen and (max-width: 1200px) {
 	.wrap {
 		gap: 50px;

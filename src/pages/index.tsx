@@ -17,7 +17,6 @@ import Icons from '@/lib/Icon';
 export default function Home() {
 	return (
 		<main className="bg-white ">
-			<ButtonIco Icon={Icons.Call} text="Link Btn" link="Link Btn" />
 			<Banner />
 			<WhyChooseMe />
 			<Services />

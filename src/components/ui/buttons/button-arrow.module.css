@@ -1,0 +1,28 @@
+.letsChatBtn {
+	display: flex;
+	align-items: center;
+	color: var(--color-palatte-heading-color, #162e2a);
+	font-family: DM Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	gap: 12px;
+	align-self: stretch;
+	border: 3px solid transparent;
+	transition: 0.3s ease-in-out;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.letsChatBtn:hover {
+	border: 3px solid #fcad26;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	color: #127063;
+}
+.letsChatBtn:hover .arrowPath {
+	fill: #127063;
+}
