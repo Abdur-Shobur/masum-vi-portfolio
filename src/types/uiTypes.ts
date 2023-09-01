@@ -11,3 +11,9 @@ export interface IInput {
 	placeholder?: string;
 	name: string;
 }
+
+export interface IButtonIco {
+	Icon: any;
+	text: string;
+	link?: string;
+}

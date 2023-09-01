@@ -11,10 +11,13 @@ import Banner from '@/components/assential/banner/Banner';
 import DesktopNav from '@/components/layout/desktop-nav/DesktopNav';
 import LayoutOne from '@/components/layout/LayoutOne';
 import { ReactElement } from 'react';
+import ButtonIco from '@/components/ui/buttons/ButtonIco';
+import Icons from '@/lib/Icon';
 
 export default function Home() {
 	return (
 		<main className="bg-white ">
+			<ButtonIco Icon={Icons.Call} text="Link Btn" link="Link Btn" />
 			<Banner />
 			<WhyChooseMe />
 			<Services />

@@ -1,0 +1,75 @@
+.btn {
+	border-radius: 10px;
+	background: #fcad26 !important;
+	color: #fff;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	display: flex;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+	height: 60px;
+	align-items: center;
+	box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+	overflow: hidden;
+	width: fit-content;
+}
+
+.ico {
+	background-color: rgb(255, 255, 255);
+	align-self: stretch;
+	display: flex;
+	align-items: center;
+	width: 50px;
+	justify-content: center;
+	border-radius: 10px 0 0 10px;
+	font-size: 25px;
+	color: #127063;
+	z-index: 2;
+}
+.beforeSqr {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: white;
+	transform: rotate(45deg);
+	left: 40px;
+	z-index: 1;
+}
+
+.txt {
+	padding-left: 40px;
+	padding-right: 40px;
+	color: #fff;
+	transition: 0.3s ease-in-out;
+}
+
+.dot {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	z-index: 3;
+	background: rgba(255, 255, 255, 0.75);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(12.5px);
+	-webkit-backdrop-filter: blur(12.5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	right: 5px;
+	top: 5px;
+}
+.btn:hover {
+	background: #127063 !important;
+	color: #fff !important;
+}
