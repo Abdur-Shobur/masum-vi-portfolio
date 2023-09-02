@@ -1,8 +1,12 @@
+.mainBannerSec {
+	position: relative;
+}
 .banner {
 	margin: 0 auto;
 	padding-left: 10px;
 	padding-right: 10px;
 	max-width: 1160px;
+	position: relative;
 }
 
 .wrap {
@@ -133,9 +137,16 @@
 	}
 	.__right {
 		min-width: 100%;
+		position: relative;
 	}
 	.__right img {
 		margin: 0 auto;
 		max-width: 350px;
 	}
+}
+
+.bgSvg1 {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
