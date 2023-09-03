@@ -1,8 +1,19 @@
+import { WhatsApp } from '@/lib/env';
 import style from './button-arrow.module.css';
 
 function ButtonArrow() {
+	const phoneNumber = WhatsApp;
+
+	// Construct the WhatsApp URL with the phone number.
+	const whatsappURL = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
+		phoneNumber
+	)}`;
+
+	const redirectToWhatsApp = () => {
+		window.open(whatsappURL, '_blank');
+	};
 	return (
-		<button className={style.letsChatBtn}>
+		<button onClick={redirectToWhatsApp} className={style.letsChatBtn}>
 			<span>Let&apos;s Chat!</span>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

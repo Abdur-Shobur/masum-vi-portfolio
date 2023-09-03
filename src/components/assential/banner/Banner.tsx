@@ -12,6 +12,7 @@ import BgSvgShapeFull from '@/lib/shape/BgSvgShapeFull';
 function Banner() {
 	return (
 		<section className={style.mainBannerSec}>
+			<span className={style.bgRoundShape}></span>
 			<BgSvgShapeFull />
 			<div className={style.banner}>
 				<div className={style.wrap}>
@@ -35,7 +36,6 @@ function Banner() {
 						<div className={style.btnBox}>
 							{/* <Button text="" /> */}
 							<ButtonIco Icon={Icons.Call} text="Schedule a Call" />
-
 							<ButtonArrow />
 						</div>
 					</div>
