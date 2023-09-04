@@ -33,6 +33,7 @@ import { AiFillStar, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
 import { BsInstagram, BsThreeDots } from 'react-icons/bs';
 import { HiOutlineMail } from 'react-icons/hi';
 import { FiPhoneCall, FiMapPin } from 'react-icons/fi';
+import { RxCross2 } from 'react-icons/rx';
 import {
 	FaAngleLeft,
 	FaAngleRight,
@@ -55,6 +56,7 @@ const Icons = {
 	marketing,
 	User: FaUser,
 	galleryImage,
+	Cancel: RxCross2,
 	internetTread,
 	Map: FiMapPin,
 	digitalMarking,

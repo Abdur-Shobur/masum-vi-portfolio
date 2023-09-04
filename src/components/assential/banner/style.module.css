@@ -79,7 +79,7 @@
 	left: -5px;
 	top: 5px;
 	z-index: -1;
-	background-color: #00a1a9;
+	background-color: var(--main);
 }
 
 .subText {

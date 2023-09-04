@@ -1,8 +1,7 @@
-import { WhatsApp } from '@/lib/env';
 import style from './button-arrow.module.css';
 
 function ButtonArrow() {
-	const phoneNumber = WhatsApp;
+	const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP as string;
 
 	// Construct the WhatsApp URL with the phone number.
 	const whatsappURL = `https://api.whatsapp.com/send?phone=${encodeURIComponent(

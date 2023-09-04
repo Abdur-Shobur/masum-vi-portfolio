@@ -8,8 +8,12 @@ import { TypeAnimation } from 'react-type-animation';
 import TextAnimation from '@/components/ui/text-animation/TextAnimation';
 import BgSvgShape from '@/lib/shape/BgSvgShape';
 import BgSvgShapeFull from '@/lib/shape/BgSvgShapeFull';
+import Modal from '@/components/ui/modal/Modal';
+import { useState } from 'react';
 
 function Banner() {
+	const [open, setOpen] = useState(false);
+
 	return (
 		<section className={style.mainBannerSec}>
 			<span className={style.bgRoundShape}></span>
@@ -40,10 +44,13 @@ function Banner() {
 						</div>
 					</div>
 					<div className={style.__right}>
+						<button onClick={() => setOpen((e: any) => !e)}>Click</button>
+
 						<Image alt="masum billah" src={MasumBillahImage.MasumBillah2} />
 					</div>
 				</div>
 			</div>
+			<Modal open={open} setOpen={setOpen} />
 		</section>
 	);
 }
