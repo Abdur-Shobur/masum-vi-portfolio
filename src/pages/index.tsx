@@ -10,14 +10,16 @@ import WhyChooseMe from '@/components/assential/why-choose-me/WhyChooseMe';
 import Banner from '@/components/assential/banner/Banner';
 import DesktopNav from '@/components/layout/desktop-nav/DesktopNav';
 import LayoutOne from '@/components/layout/LayoutOne';
-import { ReactElement } from 'react';
+import { ReactElement, useState } from 'react';
 import ButtonIco from '@/components/ui/buttons/ButtonIco';
 import Icons from '@/lib/Icon';
+import Modal from '@/components/ui/modal/Modal';
 
 export default function Home() {
+	const [open, setOpen] = useState(false);
 	return (
 		<main className="bg-white ">
-			<Banner />
+			<Banner open={open} setOpen={setOpen} />
 			<WhyChooseMe />
 			<Services />
 			<Counter />
@@ -26,6 +28,7 @@ export default function Home() {
 			<Faq />
 			<ContactInfo />
 			{/* <ProjectInMind /> */}
+			<Modal open={open} setOpen={setOpen} />
 		</main>
 	);
 }

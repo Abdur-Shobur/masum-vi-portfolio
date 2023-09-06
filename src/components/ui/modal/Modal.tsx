@@ -1,9 +1,17 @@
-import { useEffect, useState } from 'react';
+import { FormEvent, MouseEvent, useEffect, useState } from 'react';
 import style from './style.module.css';
 import Icons from '@/lib/Icon';
 import ButtonIco from '../buttons/ButtonIco';
+import Input from '../inputs/Input';
+import Input2 from '../inputs/Input2';
 
 function Modal({ open, setOpen }: { open: boolean; setOpen: Function }) {
+	const handleSubmit = (event: FormEvent) => {
+		event.preventDefault(); // Prevent the default form submission behavior
+		// Your form submission logic here
+		console.log('Form submitted');
+	};
+
 	useEffect(() => {
 		if (open) {
 			document.body.style.overflow = 'hidden';
@@ -13,16 +21,16 @@ function Modal({ open, setOpen }: { open: boolean; setOpen: Function }) {
 	}, [open]);
 	if (!open) return null;
 	return (
-		<div className="absolute top-0 z-50 w-[100vw] left-0 h-screen overflow-y-auto">
+		<div className="fixed top-0  z-50 w-[100vw] left-0 h-screen overflow-y-auto">
 			<span
 				onClick={() => setOpen(false)}
 				className="bg-[#71717126] absolute w-full h-full block z-20"
 			></span>
 
 			{/* <!-- component --> */}
-			<div className="flex justify-center items-center w-fit bg-transparent relative z-30 mx-auto">
+			<div className="flex justify-center items-center w-fit bg-cyan-50 relative z-30 mx-auto mt-20 rounded-2xl">
 				<button
-					className="absolute right-10 top-10 transition bg-red-500 hover:bg-transparent hover:text-red-500  hover:border-2 hover:border-red-500 shadow-lg w-10 h-10 flex justify-center items-center text-white rounded-full"
+					className="absolute right-16 top-16 transition bg-[var(--main)] hover:bg-transparent hover:text-[var(--main)]  hover:border-2 hover:border-[var(--main)] shadow-lg w-16 h-16 flex justify-center items-center text-white rounded-full"
 					onClick={() => setOpen(false)}
 				>
 					<Icons.Cancel />
@@ -37,35 +45,24 @@ function Modal({ open, setOpen }: { open: boolean; setOpen: Function }) {
 							</h1>
 						</div>
 						<div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
-							<input
-								className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-								type="text"
-								placeholder="First Name*"
-							/>
-							<input
-								className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-								type="text"
-								placeholder="Last Name*"
-							/>
-							<input
-								className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-								type="email"
-								placeholder="Email*"
-							/>
-							<input
-								className="w-full bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
-								type="number"
-								placeholder="Phone*"
-							/>
+							<Input2 placeholder="Your Name" />
+							<Input2 placeholder="Your Email" />
+							<Input2 placeholder="Phone Number" />
+							<Input2 placeholder="Web Site" />
 						</div>
 						<div className="my-4">
 							<textarea
 								placeholder="Message*"
-								className="w-full h-32 bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+								className="w-full h-32   text-gray-900 bg-blue-50 mt-2 p-3 rounded-xl focus:outline-none focus:shadow-outline"
 							></textarea>
 						</div>
 						<div className="my-2 w-1/2 lg:w-1/4">
-							<ButtonIco text="submit" Icon={Icons.contact} />
+							<ButtonIco
+								text="submit"
+								Icon={Icons.ArrowRight}
+								type="submit"
+								onClick={handleSubmit}
+							/>
 						</div>
 					</div>
 

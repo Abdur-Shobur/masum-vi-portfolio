@@ -8,12 +8,13 @@ function ButtonOutline({
 	action,
 	icon = false,
 	type = 'button',
+	onClick,
 }: IButton) {
 	return (
 		<button
 			className={`${style.button} ${style.ButtonOutline}`}
 			type={type}
-			onClick={() => action}
+			onClick={onClick}
 		>
 			<span>{text}</span>
 			{icon && (
