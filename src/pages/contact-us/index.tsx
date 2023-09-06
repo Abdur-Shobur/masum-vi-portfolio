@@ -4,6 +4,7 @@ import { ReactElement } from 'react';
 import MainHead from '@/components/assential/MainHead';
 import ContactCard from '@/components/ui/cards/contact-card';
 import ContactInfo from '@/components/assential/contact-info/ContactInfo';
+import ContactUsSection from '@/components/assential/contact-us-section';
 
 function ContactUs() {
 	return (
@@ -14,6 +15,8 @@ function ContactUs() {
 				subTxt="Don't wait until tomorrow. Talk to one of our consultants today and
 				learn how to start leveraging your business."
 			/>
+
+			<ContactUsSection />
 
 			<ContactInfo />
 		</section>
