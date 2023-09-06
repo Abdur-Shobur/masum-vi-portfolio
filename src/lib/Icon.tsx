@@ -6,7 +6,7 @@ import logoDark from '../../public/images/logo-dark.svg';
 import logo from '../../public/images/logo.svg';
 import imageUser from '../../public/images/image-user.svg';
 import MasumBillah from '../../public/images/Masum-Billah 1.svg';
-import MasumBillah2 from '../../public/images/Masum (1).png';
+import MasumBillah2 from '../../public/images/Masum-img.png';
 import MasumBillah3 from '../../public/images/Masum.png';
 import MasumBillah4 from '../../public/images/Masum Billah.png';
 import MasumBillah5 from '../../public/images/masum-billah-image.svg';
