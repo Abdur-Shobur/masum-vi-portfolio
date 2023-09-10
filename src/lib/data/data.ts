@@ -203,21 +203,26 @@ export const navItems = [
 	},
 	{
 		id: 3,
-		nav: 'Service & Training',
-		path: '/service-&-training',
+		nav: 'Service',
+		path: '/service',
 	},
 	{
 		id: 4,
+		nav: 'Skill Courses',
+		path: '/training',
+	},
+	{
+		id: 5,
 		nav: 'Resume',
 		path: '/resume',
 	},
 	{
-		id: 5,
+		id: 6,
 		nav: 'Blog',
 		path: '/blog',
 	},
 	{
-		id: 6,
+		id: 7,
 		nav: 'Contact Us',
 		path: '/contact-us',
 	},

@@ -6,6 +6,8 @@ import logoDark from '../../public/images/logo-dark.svg';
 import logo from '../../public/images/logo.svg';
 import imageUser from '../../public/images/image-user.svg';
 import MasumBillah from '../../public/images/Masum-Billah 1.svg';
+import bgWithShape from '../../public/images/Asset1.svg';
+import bgWithShape2 from '../../public/images/Untitled-1.png';
 import MasumBillah2 from '../../public/images/Masum-img.png';
 import MasumBillah3 from '../../public/images/Masum.png';
 import MasumBillah4 from '../../public/images/Masum Billah.png';
@@ -23,6 +25,9 @@ import img3 from '../../public/images/courses-images/course-3.png';
 import usr from '../../public/images/usr.jpg';
 import MarketingImg from '../../public/images/markting-img.jpg';
 import ArrowRoundDown from '../../public/icons/arrow-down.png';
+import shape1 from '../../public/images/shape1.svg';
+import shape2 from '../../public/images/shape2.svg';
+import shape3 from '../../public/images/shape2323.svg';
 import {
 	BiLogoFacebook,
 	BiLogoTelegram,
@@ -103,10 +108,17 @@ export const MasumBillahImage = {
 	galleryImage2,
 	Bgresume,
 	profile,
+	bgWithShape,
+	bgWithShape2,
 };
 export const Bg = {
 	Bgresume,
 	MarketingImg,
+};
+export const BGShape = {
+	shape1,
+	shape2,
+	shape3,
 };
 
 export default Icons;
