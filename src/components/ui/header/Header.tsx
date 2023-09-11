@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import style from './style.module.css';
+import { BGShape } from '@/lib/Icon';
 
 function Header({
 	section,
@@ -12,7 +14,12 @@ function Header({
 	};
 }) {
 	return (
-		<div>
+		<div className="relative">
+			{/* <Image
+				src={BGShape.headingShpae}
+				className={style.headingShape}
+				alt="heading-shape"
+			/> */}
 			<div className={style.headerBox}>
 				<span className={style.line}></span>
 				<h4 className={style.section}>{section}</h4>

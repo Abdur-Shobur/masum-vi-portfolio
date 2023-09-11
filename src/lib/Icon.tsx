@@ -28,6 +28,7 @@ import ArrowRoundDown from '../../public/icons/arrow-down.png';
 import shape1 from '../../public/images/shape1.svg';
 import shape2 from '../../public/images/shape2.svg';
 import shape3 from '../../public/images/shape2323.svg';
+import headingShpae from '../../public/images/headingShpae.svg';
 import {
 	BiLogoFacebook,
 	BiLogoTelegram,
@@ -119,6 +120,7 @@ export const BGShape = {
 	shape1,
 	shape2,
 	shape3,
+	headingShpae,
 };
 
 export default Icons;
