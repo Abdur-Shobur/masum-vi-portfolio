@@ -17,12 +17,15 @@
 }
 
 .letsChatBtn:hover {
-	border: 3px solid #00a1a9;
+	border: 3px solid var(--main);
 	padding-left: 20px;
 	padding-right: 20px;
 	border-radius: 10px;
-	color: #00676d;
+	color: var(--main);
+}
+.arrowPath {
+	transition: 0.3s ease-in-out;
 }
 .letsChatBtn:hover .arrowPath {
-	fill: #00676d;
+	fill: var(--main);
 }

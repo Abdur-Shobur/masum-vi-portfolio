@@ -9,6 +9,7 @@
 	max-width: 1160px;
 	gap: 30px;
 	position: relative;
+	z-index: 3;
 }
 
 .__right {
@@ -49,6 +50,7 @@
 	transform: translateX(-10px);
 	left: 0;
 	top: 0;
+	opacity: 20%;
 }
 @media only screen and (max-width: 1160px) {
 	.paragraph {

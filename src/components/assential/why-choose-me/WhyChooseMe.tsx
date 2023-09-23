@@ -1,11 +1,13 @@
 import Header from '@/components/ui/header/Header';
 import style from './style.module.css';
 import Image from 'next/image';
-import { BGShape, MasumBillahImage } from '@/lib/Icon';
+import Icons, { BGShape, MasumBillahImage } from '@/lib/Icon';
 import Button from '@/components/ui/buttons/Button';
 import ButtonOutline from '@/components/ui/buttons/ButtonOutline';
 import iImag from 'public/images/aaaaa.svg';
 import BgSvgShape from '@/lib/shape/BgSvgShape';
+import ButtonIco from '@/components/ui/buttons/ButtonIco';
+import ClickStyleBtn from '@/components/ui/buttons/ClickStyleBtn';
 function WhyChooseMe() {
 	return (
 		<section className={style.chooseMe_wrap}>
@@ -32,8 +34,9 @@ function WhyChooseMe() {
 						impact.
 					</p>
 					<div className={style.buttonBox}>
-						<Button text="Hire Me" />
-						<ButtonOutline text="Learn More" />
+						<ButtonIco Icon={Icons.Call} text="Hire Me" />
+						{/* <ButtonOutline text="Learn More" /> */}
+						<ClickStyleBtn text="Learn More" />
 					</div>
 				</div>
 				<div className={style.__right}>

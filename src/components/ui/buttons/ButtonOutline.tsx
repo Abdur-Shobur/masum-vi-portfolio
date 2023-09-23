@@ -1,7 +1,6 @@
 import Icons from '@/lib/Icon';
 import { IButton } from '@/types/uiTypes';
 import Image from 'next/image';
-import React from 'react';
 import style from './style.module.css';
 function ButtonOutline({
 	text,

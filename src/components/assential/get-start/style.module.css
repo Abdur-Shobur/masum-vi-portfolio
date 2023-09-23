@@ -10,28 +10,58 @@
 	color: #fff;
 	margin-bottom: 10px;
 	text-align: center;
+	position: relative;
+	z-index: 3;
 }
 .subTxt {
 	font-size: 44px;
 	font-weight: 700;
 	text-align: center;
 	margin-bottom: 20px;
+	position: relative;
+	color: #fff;
+
+	z-index: 3;
 }
 
 .content {
-	background-image: url('../../../../public/images/conactCtaBg4.png');
 	background-position: center;
+	margin: 0 auto;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 63px 30%;
+	padding: 76px 10px;
+	max-width: 1100px;
 	border-radius: 10px;
 	animation-name: MoveBg;
 	animation-duration: 6s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	margin-bottom: 112px;
+	position: relative;
+	margin-bottom: 112px; /* background: var(--main); */
+	z-index: 2;
+	/* border: 3px solid var(--main); */
 }
-@keyframes MoveBg {
+.content::after {
+	background-image: url('../../../../public/images/bbg-action.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-image: url('../../../../public/images/call-to-action.svg'); */
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* background-color: red; */
+	z-index: 1;
+	border-radius: 10px;
+	border: 3px solid var(--main);
+
+	opacity: 0.8;
+}
+
+/* @keyframes MoveBg {
 	0% {
 		background-position: left;
 	}
@@ -58,4 +88,4 @@
 	75% {
 		background-position: right;
 	}
-}
+} */

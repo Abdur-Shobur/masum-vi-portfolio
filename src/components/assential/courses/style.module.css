@@ -28,8 +28,8 @@
 	line-height: 44px; /* 140% */
 }
 .filterBtn.active {
-	color: #127063;
-	border-bottom: 2px solid #127063;
+	color: var(--main);
+	border-bottom: 2px solid var(--main);
 }
 .bar {
 	background: rgba(193, 193, 193, 0.8);

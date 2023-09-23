@@ -1,7 +1,7 @@
 .countItem {
 }
 .countTitle {
-	color: var(--color-palatte-heading-color, #162e2a);
+	color: #000;
 	text-align: center;
 	leading-trim: both;
 	text-edge: cap;
@@ -13,6 +13,9 @@
 	font-weight: 700;
 	line-height: normal;
 	text-transform: capitalize;
+}
+.suffix {
+	color: var(--main);
 }
 .countValue {
 	color: var(--color-palatte-heading-color, #162e2a);

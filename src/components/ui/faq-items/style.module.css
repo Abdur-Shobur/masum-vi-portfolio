@@ -1,5 +1,5 @@
 .accordionItem {
-	color: var(--color-palatte-heading-color, #162e2a);
+	color: var(--main);
 	font-family: hind;
 	font-size: 20px;
 	font-style: normal;
@@ -20,7 +20,7 @@
 }
 
 .accordionItem[data-state='open'] {
-	background: #162e2a;
+	background: var(--main);
 	color: #fff;
 }
 .icoMinus,

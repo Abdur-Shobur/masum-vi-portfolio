@@ -48,7 +48,6 @@
 	font-style: normal;
 	font-weight: 500;
 	line-height: 28px;
-	border-radius: 28px;
 	color: #127063;
 	background: rgba(27, 166, 147, 0.19);
 	display: flex;
@@ -58,11 +57,11 @@
 	gap: 10px;
 	width: max-content;
 	transition: 0.3s ease-in-out;
+	border-radius: 28px;
 }
 
 .pill:hover {
 	background: rgba(27, 166, 147, 0.419);
-	border-radius: 20px;
 }
 
 .name {

@@ -6,7 +6,7 @@ function CounterCard({ data }: { data: ICount }) {
 		<div className={style.countItem}>
 			<h1 className={style.countValue}>
 				{data.value}
-				{data.suffix}
+				<span className={style.suffix}>{data.suffix}</span>
 			</h1>
 			<p className={style.countTitle}>{data.title}</p>
 		</div>
