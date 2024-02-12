@@ -5,9 +5,15 @@
 @tailwind utilities;
 
 :root {
-	--main: #00a1a9;
-	--paragraph: #62676b;
-	--heading: #162e2a;
+	/* --main: #00a1a9; */
+	--main: #499dfa;
+	--sub-main: #017c26;
+	--white: #fff;
+
+	--paragraph: #4a4d54;
+
+	--heading: #a435f0;
+	--heading: #010001;
 }
 
 @layer components {

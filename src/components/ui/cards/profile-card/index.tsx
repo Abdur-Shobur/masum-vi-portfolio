@@ -2,6 +2,15 @@ import Image from 'next/image';
 import style from './profile-card.module.css';
 import Icons, { MasumBillahImage } from '@/lib/Icon';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
+// const DynamicIcon = dynamic(() => import('../../icons/icon'), {
+// 	ssr: false, // Disable server-side rendering
+// });
+
+// const DynamicIcon = dynamic(() => import('../../icons/icon'), {
+// 	loading: () => <p>Loading...</p>,
+// 	ssr: false,
+// });
 
 function ProfileCard() {
 	return (
@@ -9,6 +18,7 @@ function ProfileCard() {
 			<div className={style.profileImage}>
 				<Image alt="masum billah " src={MasumBillahImage.BannerImage} />
 			</div>
+			{/* <DynamicIcon iconName="sfsd" /> */}
 			<div className={style.profileBody}>
 				<div className="">
 					<h1 className={style.name}>Md Masum Billah ✅</h1>

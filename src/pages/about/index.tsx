@@ -13,13 +13,13 @@ function About() {
 	return (
 		<div className="layout">
 			<MainHead section="About Me" tittle={{ t1: 'Unveiling Story', t2: '' }} />
-			<div className={style.imageBox}>
+			{/* <div className={style.imageBox}>
 				<Image
 					className={style.galleryImage}
 					alt="gallery image"
 					src={Icons.galleryImage}
 				/>
-			</div>
+			</div> */}
 
 			<div className={style.aboutWrap}>
 				<div className={style.aboutWrap__left}>

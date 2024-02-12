@@ -1,7 +1,7 @@
 .btn {
 	border-radius: 10px;
-	background: #00a1a9 !important;
-	color: #fff;
+	background: var(--main) !important;
+	color: var(--white);
 	border: none;
 	font-family: inherit;
 	font-size: inherit;
@@ -26,7 +26,7 @@
 }
 
 .ico {
-	background-color: rgb(255, 255, 255);
+	background-color: var(--white);
 	align-self: stretch;
 	display: flex;
 	align-items: center;
@@ -34,14 +34,15 @@
 	justify-content: center;
 	border-radius: 10px 0 0 10px;
 	font-size: 25px;
-	color: #127063;
+	color: var(--sub-main);
 	z-index: 2;
 }
+
 .beforeSqr {
 	position: absolute;
 	width: 15px;
 	height: 15px;
-	background: white;
+	background: var(--white);
 	transform: rotate(45deg);
 	left: 40px;
 	z-index: 1;
@@ -50,7 +51,7 @@
 .txt {
 	padding-left: 40px;
 	padding-right: 40px;
-	color: #fff;
+	color: var(--white);
 	transition: 0.3s ease-in-out;
 }
 
@@ -68,7 +69,8 @@
 	right: 5px;
 	top: 5px;
 }
+
 .btn:hover {
-	background: #127063 !important;
-	color: #fff !important;
+	background: var(--sub-main) !important;
+	color: var(--white) !important;
 }
