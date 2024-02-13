@@ -41,8 +41,6 @@
 }
 
 .pill {
-	leading-trim: both;
-	text-edge: cap;
 	font-family: Hind;
 	font-size: 16px;
 	font-style: normal;
@@ -76,7 +74,7 @@
 .mainName {
 	position: relative;
 	z-index: 1;
-	color: #fff;
+	color: var(--main);
 	transition: 0.3s;
 }
 
@@ -96,8 +94,6 @@
 
 .subText {
 	color: var(--color-palatte-paragraph-color, #62676b);
-	leading-trim: both;
-	text-edge: cap;
 
 	/* DM Sans/P-18px - Regular */
 	font-family: DM Sans;
