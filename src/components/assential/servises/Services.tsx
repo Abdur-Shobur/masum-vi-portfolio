@@ -1,14 +1,11 @@
 import Header from '@/components/ui/header/Header';
 import style from './style.module.css';
-import { servicesData, testimonialData } from '@/lib/data/data';
-import React, { useRef, useState } from 'react';
+import { servicesData } from '@/lib/data/data';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Virtual, Pagination } from 'swiper/modules';
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+
 import ServicesCard from '@/components/ui/cards/service-card/ServicesCard';
 function Services() {
 	return (
