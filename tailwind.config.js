@@ -31,10 +31,16 @@ module.exports = {
 			backgroundColor: {
 				skin: {},
 			},
+
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
+				main: 'var(--main)',
+				white: 'var(--white)',
+				paragraph: 'var(--paragraph)',
+				heading: 'var(--heading)',
+				'sub-main': 'var(--sub-main)',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {

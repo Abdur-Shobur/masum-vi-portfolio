@@ -23,7 +23,8 @@ function Banner({ open, setOpen }: { open: boolean; setOpen: Function }) {
 						<h1 className={style.name}>
 							I&apos;m{' '}
 							<span className={style.mainName}>
-								MD Masum Billah <span className={style.nameBefore}></span>
+								MD Masum Billah
+								{/* <span className={style.nameBefore}></span> */}
 							</span>
 						</h1>
 
@@ -51,7 +52,7 @@ function Banner({ open, setOpen }: { open: boolean; setOpen: Function }) {
 							className={style.profileImage}
 							src={MasumBillahImage.MasumBillah2}
 						/>
-						<Image
+						{/* <Image
 							className={`${style.shape1} ${style.shape}`}
 							alt="masum billah"
 							src={BGShape.shape1}
@@ -60,7 +61,7 @@ function Banner({ open, setOpen }: { open: boolean; setOpen: Function }) {
 							className={`${style.shape2} ${style.shape}`}
 							alt="masum billah"
 							src={BGShape.shape2}
-						/>
+						/> */}
 					</div>
 					<span className={'colorBox'}></span>
 				</div>

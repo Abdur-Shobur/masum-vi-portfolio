@@ -14,12 +14,14 @@ import { ReactElement, useState } from 'react';
 import ButtonIco from '@/components/ui/buttons/ButtonIco';
 import Icons from '@/lib/Icon';
 import Modal from '@/components/ui/modal/Modal';
+import TrustMe from '@/components/assential/trust-me/TrustMe';
 
 export default function Home() {
 	const [open, setOpen] = useState(false);
 	return (
 		<main className="bg-white ">
 			<Banner open={open} setOpen={setOpen} />
+			<TrustMe />
 			<WhyChooseMe />
 			<Services />
 			<Counter />
