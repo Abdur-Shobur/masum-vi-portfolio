@@ -1,6 +1,10 @@
 import Image from "next/image";
 import photo from "@/../public/images/resumePhoto.png";
 import { MdCastForEducation, MdLocationOn } from "react-icons/md";
+import { FaUserTie } from "react-icons/fa";
+import { GoGoal } from "react-icons/go";
+import { IoStar } from "react-icons/io5";
+import { LiaUserAstronautSolid } from "react-icons/lia";
 
 const ResumeComponent = () => {
   return (
@@ -48,21 +52,23 @@ const ResumeComponent = () => {
       </div>
 
       {/* layout */}
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-4 gap-4">
         <div className="col-span-3">
           {/* WORK EXPERIENCE */}
           <div className="">
-            <div className="flex text-lg items-center gap-2 font-semibold text-[primary-foreground] border-b-2 border-black">
+            <div className="flex text-lg items-center gap-2 font-semibold text-main  border-b-2 border-black">
               <h2>WORK EXPERIENCE</h2>
               <MdCastForEducation />
             </div>
-
+            {/*  */}
             <div className="">
               <h2 className="text-md font-semibold pt-2 flex items-center relative  ">
-                <span className="-m-1 w-3 h-3 block rounded-full  bg-red-300"></span>
-                <span className=" pl-2"> ADMINISTRATIVE DIRECTOR</span>
+                <span className="-m-1 w-3 h-3 block rounded-full  bg-secondary"></span>
+                <span className=" pl-2 text-secondary">
+                  ADMINISTRATIVE DIRECTOR
+                </span>
               </h2>
-              <div className=" border-l-2 border-black pl-2">
+              <div className=" border-l border-secondary pl-2">
                 <h3 className="font-semibold">Sindabad IT LTD.</h3>
                 <p>12/2021 {"–"} Current</p>
                 <div className="flex items-center gap-1">
@@ -80,14 +86,15 @@ const ResumeComponent = () => {
                 </p>
               </div>
             </div>
-
             {/*  */}
             <div className="">
               <h2 className="text-md font-semibold pt-2 flex items-center relative  ">
-                <span className="-m-1 w-3 h-3 block rounded-full  bg-red-300"></span>
-                <span className=" pl-2"> ADMINISTRATIVE DIRECTOR</span>
+                <span className="-m-1 w-3 h-3 block rounded-full  bg-secondary"></span>
+                <span className=" pl-2 text-secondary">
+                  ADMINISTRATIVE DIRECTOR
+                </span>
               </h2>
-              <div className=" border-l-2 border-black pl-2">
+              <div className=" border-l border-secondary pl-2">
                 <h3 className="font-semibold">Sindabad IT LTD.</h3>
                 <p>12/2021 {"–"} Current</p>
                 <div className="flex items-center gap-1">
@@ -107,7 +114,67 @@ const ResumeComponent = () => {
             </div>
           </div>
         </div>
-        <div className="">asdf</div>
+        <div className="">
+          <h1 className="text-xl font-semibold uppercase py-5 flex items-center gap-2">
+            <p> Personal details</p>
+            <FaUserTie />
+          </h1>
+
+          <div className="">
+            <div className="pt-3">
+              <h1 className="text-lg font-semibold text-stone-500">
+                Date of birth
+              </h1>
+              <p>April 2, 1997</p>
+            </div>
+            <div className="pt-3">
+              <h1 className="text-lg font-semibold text-stone-500">Gender</h1>
+              <p>Male</p>
+            </div>
+            <div className="pt-3">
+              <h1 className="text-lg font-semibold text-stone-500">
+                Nationality
+              </h1>
+              <p>Bangladeshi</p>
+            </div>
+            <div className="pt-3">
+              <h1 className="text-lg font-semibold text-stone-500">Mobile</h1>
+              <p>+880 1734 659 001</p>
+            </div>
+            <div className="pt-3">
+              <h1 className="text-lg font-semibold text-stone-500">eMail</h1>
+              <p>spacedevs@gmail.com</p>
+            </div>
+          </div>
+
+          <div className="">
+            <h1 className="text-xl font-semibold uppercase pt-5 flex items-center gap-2">
+              <p> Qualities</p>
+              <GoGoal />
+            </h1>
+            <div className="">
+              <h1 className="pt-2 text-lg flex items-center gap-1 ">
+                <IoStar className="text-secondary" />
+                <span>Early Adopter</span>
+              </h1>
+              <h1 className="pt-2 text-lg flex items-center gap-1 ">
+                <IoStar className="text-secondary" />
+                <span>Early Adopter</span>
+              </h1>
+              <h1 className="pt-2 text-lg flex items-center gap-1 ">
+                <IoStar className="text-secondary" />
+                <span>Early Adopter</span>
+              </h1>
+            </div>
+          </div>
+
+          <div className="">
+            <h1 className="text-xl font-semibold uppercase pt-5 flex items-center gap-2">
+              <p> Languages</p>
+              <LiaUserAstronautSolid size={25} />
+            </h1>
+          </div>
+        </div>
       </div>
     </div>
   );
