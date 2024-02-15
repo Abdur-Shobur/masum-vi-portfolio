@@ -2,10 +2,6 @@ import Header from '@/components/ui/header/Header';
 import style from './style.module.css';
 import Image from 'next/image';
 import Icons, { BGShape, MasumBillahImage } from '@/lib/Icon';
-import Button from '@/components/ui/buttons/Button';
-import ButtonOutline from '@/components/ui/buttons/ButtonOutline';
-import iImag from 'public/images/aaaaa.svg';
-import BgSvgShape from '@/lib/shape/BgSvgShape';
 import ButtonIco from '@/components/ui/buttons/ButtonIco';
 import ClickStyleBtn from '@/components/ui/buttons/ClickStyleBtn';
 function WhyChooseMe() {
