@@ -15,6 +15,7 @@ import ButtonIco from '@/components/ui/buttons/ButtonIco';
 import Icons from '@/lib/Icon';
 import Modal from '@/components/ui/modal/Modal';
 import TrustMe from '@/components/assential/trust-me/TrustMe';
+import ClientSaysAbout from '@/components/assential/client-says-about/ClientSaysAbout';
 
 export default function Home() {
 	const [open, setOpen] = useState(false);
@@ -23,6 +24,7 @@ export default function Home() {
 			<Banner open={open} setOpen={setOpen} />
 			<TrustMe />
 			<WhyChooseMe />
+			<ClientSaysAbout />
 			<Services />
 			<Counter />
 			<Courses />
